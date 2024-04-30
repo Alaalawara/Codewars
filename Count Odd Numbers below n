@@ -1,0 +1,4 @@
+function oddCount(n) {
+  let count = Math.floor(n / 2);
+  return count;
+}
