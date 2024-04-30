@@ -1,0 +1,14 @@
+function cantor(n){
+    let arr=[]
+    for(let i=0;i<n.length;i++)
+    {
+        
+            const c=n[i][i];
+                const a= c === 0 ? 1:0;
+                arr.push(a);
+            
+        
+    }
+  
+return arr;
+}
