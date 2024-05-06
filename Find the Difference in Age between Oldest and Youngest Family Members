@@ -1,0 +1,6 @@
+function differenceInAges(ages){
+    let a=Math .min(...ages);
+    let b=Math.max(...ages);
+    let c=b-a;
+    return [a,b,c];
+  }
