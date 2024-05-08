@@ -1,0 +1,15 @@
+function points(games) {
+  let total=0
+  for (let i = 0; i < games.length; i++) {
+    const x = games[i][0];
+    const y = games[i][2];
+    if(x>y){
+      total+=3;
+    }else if(x<y){
+      total+=0
+    }else if(x==y){
+      total+=1;
+    }
+  }
+  return total;
+}
